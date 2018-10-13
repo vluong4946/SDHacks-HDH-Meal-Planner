@@ -9,11 +9,11 @@ app.set('view engine', 'ejs')
 
 //connect method to connect to MongoDB database
 var db
-MongoClient.connect('mongodb://v2luong:91722Bluex@ds131323.mlab.com:31323/starwars-quotes', (err, client) => {
+MongoClient.connect('mongodb://vluong4946:91722Bluex@ds231723.mlab.com:31723/hdhnutrition', (err, client) => {
     //Handle error
     if(err) return console.log(err)
 
-    db = client.db('starwars-quotes')
+    db = client.db('hdhnutrition')
 
     //Deploy server once db is set up
     app.listen(3000, function() {
@@ -36,10 +36,10 @@ app.get('/', (req, res) => {
     //toArray: converts only the entries in the db to array. Accepts a callback to
     //allow us to do stuff with the array entries.
     //We pass it into index.ejs for us to display to the HTML.
-    db.collection('quotes').find().toArray((err, result) => {
+    db.collection('Cafe_Ventanas').find().toArray((err, result) => {
         if (err) return console.log(err)
         // renders index.ejs
-        res.render('index.ejs', {quotes: result})
+        res.render('index.ejs', {Cafe_Ventanas: result}) //lol wut
     })
 })
 
@@ -50,6 +50,7 @@ app.get('/', (req, res) => {
  * to MonogoDB.
  * Then redirect the user back to '/' to refresh the page to display the quote.
  */
+/*
 app.post('/quotes', (req, res) => {
     db.collection('quotes').insertOne(req.body, (err, result) => {
         if(err) return console.log(err)
@@ -60,6 +61,7 @@ app.post('/quotes', (req, res) => {
     })
 
 })
+*/
 
 
 

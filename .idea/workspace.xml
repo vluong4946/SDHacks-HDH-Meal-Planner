@@ -3,69 +3,44 @@
   <component name="ChangeListManager">
     <list default="true" id="97593bd9-5ce0-47ae-a9e8-472a99589b37" name="Default Changelist" comment="Default Changelist">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/.ipynb_checkpoints/Joseph Notebook-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/More  Processing and Cleaning.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/dataframes/64 Degrees.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/dataframes/Cafe Ventanas.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/dataframes/Canyon Vista.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/dataframes/Club Med.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/dataframes/Foodworx.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/dataframes/Goodys.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/dataframes/OceanView.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/dataframes/Pines.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/dataframes/Roots.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/dataframes/Sixty-Four-North.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/dataframes/The Bistro.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/dataframes_unproc/64 Degrees.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/dataframes_unproc/Cafe Ventanas.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/dataframes_unproc/Canyon Vista.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/dataframes_unproc/Club Med.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/dataframes_unproc/Foodworx.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/dataframes_unproc/Goodys.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/dataframes_unproc/OceanView.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/dataframes_unproc/Pines.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/dataframes_unproc/Roots.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/dataframes_unproc/Sixty-Four-North.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/dataframes_unproc/The Bistro.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/json files and processing notebooks/.ipynb_checkpoints/64 Degrees proc-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/json files and processing notebooks/.ipynb_checkpoints/Cafe Ventanas proc-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/json files and processing notebooks/.ipynb_checkpoints/Canyon Vista proc-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/json files and processing notebooks/.ipynb_checkpoints/Club Med proc-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/json files and processing notebooks/.ipynb_checkpoints/Foodworx proc-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/json files and processing notebooks/.ipynb_checkpoints/Goodys proc-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/json files and processing notebooks/.ipynb_checkpoints/OceanView proc-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/json files and processing notebooks/.ipynb_checkpoints/Pines proc-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/json files and processing notebooks/.ipynb_checkpoints/Roots proc-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/json files and processing notebooks/.ipynb_checkpoints/Sixty-Four-North proc-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/json files and processing notebooks/.ipynb_checkpoints/The Bistro proc-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/json files and processing notebooks/64 Degrees proc.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/json files and processing notebooks/64 Degrees.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/json files and processing notebooks/Cafe Ventanas proc.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/json files and processing notebooks/Cafe Ventanas.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/json files and processing notebooks/Canyon Vista proc.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/json files and processing notebooks/Canyon Vista.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/json files and processing notebooks/Club Med proc.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/json files and processing notebooks/Club Med.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/json files and processing notebooks/Foodworx proc.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/json files and processing notebooks/Foodworx.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/json files and processing notebooks/Goodys proc.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/json files and processing notebooks/Goodys.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/json files and processing notebooks/OceanView proc.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/json files and processing notebooks/OceanView.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/json files and processing notebooks/Pines proc.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/json files and processing notebooks/Pines.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/json files and processing notebooks/Roots proc.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/json files and processing notebooks/Roots.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/json files and processing notebooks/Sixty-Four-North proc.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/json files and processing notebooks/Sixty-Four-North.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/json files and processing notebooks/The Bistro proc.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JSON Files/json files and processing notebooks/The Bistro.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/views/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="index.ejs" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/views/index.ejs">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="238">
+                    <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/views/style.css">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="85">
+                    <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1346985303">
@@ -97,35 +72,44 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+    <leaf>
+      <file leaf-file-name="save_for_later.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/save_for_later.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="save for later css.css" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/save for later css.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="170">
+              <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/index.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="20" column="56" lean-forward="true" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+            <state relative-caret-position="170">
+              <caret line="10" column="56" lean-forward="true" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -140,6 +124,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Vue Single File Component" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -147,6 +132,7 @@
     <findStrings>
       <find>monogo</find>
       <find>index</find>
+      <find>star</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -162,8 +148,10 @@
         <option value="$PROJECT_DIR$/my-vue-app/src/components/PostsManager.vue" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/views/index.ejs" />
+        <option value="$USER_HOME$/Downloads/save_for_later.html" />
         <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/views/index.ejs" />
+        <option value="$PROJECT_DIR$/views/style.css" />
       </list>
     </option>
   </component>
@@ -181,10 +169,10 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="width" value="1392" />
-    <option name="height" value="1758" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-10" />
+    <option name="width" value="1390" />
+    <option name="height" value="1756" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -208,6 +196,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
@@ -223,9 +212,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="server.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="server.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
+    <configuration name="server.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="server.js" working-dir="$PROJECT_DIR$" />
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.server.js" />
@@ -250,32 +237,43 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14573000" />
+    <option name="totallyTimeSpent" value="18363000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-5" y="0" width="695" height="878" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.4948605" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3291815" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3558719" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.33159268" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.4948605" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3291815" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3558719" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,6 +283,81 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/my-vue-app/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-vue-app/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-vue-app/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-316">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-vue-app/src/components/Hello.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-vue-app/src/components/PostsManager.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-vue-app/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="11" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/my-vue-app/index.html" />
     <entry file="file://$PROJECT_DIR$/my-vue-app/src/router/index.js" />
     <entry file="file://$PROJECT_DIR$/my-vue-app/src/App.vue" />
@@ -298,24 +371,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/save_for_later.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        <state relative-caret-position="170">
+          <caret line="10" column="56" lean-forward="true" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/save for later css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="20" column="56" lean-forward="true" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+        <state relative-caret-position="238">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="170">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
         </state>
       </provider>
     </entry>
