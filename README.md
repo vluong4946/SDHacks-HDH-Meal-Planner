@@ -26,12 +26,14 @@ Database
 
 ---------------------------------------------------------------------------------------------------------------
 **Team Members & Response**
-Joseph Gilby
+
+Joseph Gilby:
+>I worked on cleaning and presenting the data provided by HDH. I probably took the wrong approach by trying to translate the provided json on the webpage into pandas dataframes rather than directly uploading the json into mLab, but at least the experience motivates me to spend my time more wisely. I also worked on adding a 'lightbox' feature to the webpage when the user clicks on 'add food.'
 
 John Bae
-
+>
 Shawn Koo
-
+>
 Victor Luong (me): 
 >I worked on the front- and back-end. I used Node.js and HTML/CSS to create and design a website with the basic template of how things were planned to look like and some of the core functionality behind it. 
 >I worked on setting up the mLab database to which Joseph uploaded his data, and retrieving the data to be put on the site.
