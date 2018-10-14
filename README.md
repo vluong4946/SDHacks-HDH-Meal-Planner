@@ -32,6 +32,14 @@ Database
 * Me
 
 ---------------------------------------------------------------------------------------------------------------
+**Stuff Used**
+* Python
+* Jupyter Notebook
+* MongoDB
+* Node.js
+* HTML + CSS
+
+---------------------------------------------------------------------------------------------------------------
 **References:**
 * creating basic CRUD app: https://zellwk.com/blog/crud-express-mongodb/
 * not used yet: https://zellwk.com/blog/crud-express-and-mongodb-2/
