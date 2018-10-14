@@ -3,27 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <title>HDH Meal Planner</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 Welcome to HDH Meal Planner!
+    <style>
+        * {
+            box-sizing: border-box;
+        }
 
-<ul class="quotes">
+        /* Create three equal columns that floats next to each other */
+        .mealsColumn {
+            float: left;
+            width: 14.28%;
+            padding: 10px;
+            height: 200px; /* Should be removed. Only for demonstration */
+        }
+        .nutritionColumn {
+            float: left;
+            width: 14.28%;
+            padding: 10px;
+            height: 300px; /* Should be removed. Only for demonstration */
+        }
+        .costColumn {
+            float: left;
+            width: 14.28%;
+            padding: 10px;
+            height: 50px; /* Should be removed. Only for demonstration */
+        }
 
-    <% for(var i=0; i<Cafe_Ventanas.length; i++) {%>
-    <li>
-        <span><%= Cafe_Ventanas[i].name %></span>
-        <span><%= Cafe_Ventanas[i]['price($)'] %></span>
-        <span><%= Cafe_Ventanas[i].calories %></span>
-    </li>
-    <% } %>
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+
+
+
 
     <div class="row">
-        <div class="column"></div>
-        <div class="column"></div>
-        <div class="column"></div>
+        <div class="mealsColumn" style="background-color:#aaa;">
+            <h2>Column 1</h2>
+            <p>Some text..</p>
+        </div>
+        <div class="mealsColumn" style="background-color:#aaa;">
+            <h2>Column 1</h2>
+            <p>Some text..</p>
+        </div>
+        <div class="mealsColumn" style="background-color:#aaa;">
+            <h2>Column 1</h2>
+            <p>Some text..</p>
+        </div>
+        <div class="mealsColumn" style="background-color:#aaa;">
+            <h2>Column 1</h2>
+            <p>Some text..</p>
+        </div>
+        <div class="mealsColumn" style="background-color:#aaa;">
+            <h2>Column 1</h2>
+            <p>Some text..</p>
+        </div>
+        <div class="mealsColumn" style="background-color:#aaa;">
+            <h2>Column 1</h2>
+            <p>Some text..</p>
+        </div>
+        <div class="mealsColumn" style="background-color:#aaa;">
+            <h2>Column 1</h2>
+            <p>Some text..</p>
+        </div>
     </div>
-</ul>
+
+    <script>
+        const SAT = 0;
+        enum Days {}
+    </script>
 
 
 </body>
