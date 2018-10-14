@@ -1,33 +1,30 @@
 # SDHacksHDHProject
 
-**plan:**
+This is a web-based weekly meal planner designed specifically for UC San Diego students who frequently/exclusively eat from HDH's dining halls, ie, students who live on campus. It allows students to input what they plan to eat, choosing from available dining hall food options on a selected day and time. In turn, they receive a summary of their nutritional intake and dining dollar costs for the week. 
 
-web scraper with python
-* jupyter notebook
-* python
+The program uses Python to collect the food data off the [HDH Menu website](https://hdh-web.ucsd.edu/dining/apps/diningservices/). The data is stored using MongoDB and retrived server-side using Node.js. The information is displayed to the website which is written in Javascript, HTML, and CSS. 
 
-put data into database (mlab)
+![picture alt](https://i.imgur.com/UbzUKgY.png "Main Page")
+![picture alt](https://i.imgur.com/AT0WpYr.png "Dining Hall Selection Menu")
+![picture alt](https://i.imgur.com/NVwqQmy.png "Database")
 
-get data and put onto webpage
+**Currently Complete Parts**
+* Collect the food information from each dining hall and upload it to a database
+* Have a basic locally-hosted website
+* Have some core functionality
 
-webpage:
-* nodejs
-* html: express
-* css: bootstrap
-* hosting: amazon web services
-* database: Mlab
+**Currently Incomplete Parts**
+* Displaying the food options for a particular day and time
+* Filtering out food with certain allergies specified by the user
+* Summarizing nutritional values and cost
+* Deploying website onto hosting platform
 
 ---------------------------------------------------------------------------------------------------------------
-**features:**
-* Planning of meals: selecting what you will eat over the course of a day/week and seeing the cumulative nutrional info
-  * see all foods for 7 days if plannign
-  * if just inputting one day just show that day's menu
-* Dining dollars tracking
-  * example: https://docs.google.com/spreadsheets/d/1nkjM-BxgI2AKeNKQvD7VVWqAotvhbjoYrEV-QELHPRI/edit?usp=sharing
-* filtering out items with certain allergens
-* ...???? something something data?????
-
-* Account system to track the info of each user
+**Team Members**
+* Joseph Gilby
+* John Bae
+* Shawn Koo
+* Me
 
 ---------------------------------------------------------------------------------------------------------------
 **References:**
@@ -36,9 +33,3 @@ webpage:
 * not used yet: https://zellwk.com/blog/nunjucks-with-gulp/
 * Searching for desired menu items: https://stackoverflow.com/questions/7176908/how-to-get-index-of-object-by-its-property-in-javascript
 * Sending entire database to browser: https://stackoverflow.com/questions/41142136/res-render-only-after-multiple-data-queries-have-finished/41142211
----------------------------------------------------------------------------------------------------------------
-**Team Members**
-* Joseph Gilby
-* John Bae
-* Shawn Koo
-* Me
