@@ -1,160 +1,325 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
     <title>HDH Meal Planner</title>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </head>
 
+<!-- custom designs for main page-->
 <style>
-/* The Modal (background) */
-.modal {
-display: none;
-position: fixed;
-z-index: 1;
-padding-top: 100px;
-left: 0;
-top: 0;
-width: 100%;
-height: 100%;
-overflow: auto;
-background-color: black;
-}
+    .toCenter{
+        margin: auto;
+        text-align: center;
+    }
+    body{
+        background-color: #F0F8FF;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    #underline{
+        text-decoration: underline;
+    }
+    .tableRowHeader{
+        scope:col;
+        width:12% ;
+    }
 
-/* Modal Content */
-.modal-content {
-position: relative;
-background-color: #fefefe;
-margin: auto;
-padding: 0;
-width: 90%;
-max-width: 1200px;
-}
-/* The Close Button */
-.close {
-    color: white;
-    position: absolute;
-    top: 10px;
-    right: 25px;
-    font-size: 35px;
-    font-weight: bold;
-}
-
-/* Dropdown Button */
-.dropbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
 
 
 </style>
+
+<!-- custom designs for modal page-->
+<style>
+    /*Modal font*/
+    .modal-font {
+        color: white;
+    }
+
+
+    /* The Modal (background) */
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        padding-top: 100px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: black;
+        opacity: 0.85;
+    }
+
+    /* Modal Content */
+    .modal-content {
+        position: relative;
+        background-color: #fefefe;
+        margin: auto;
+        padding: 0;
+        width: 80%;
+        max-width: 1200px;
+    }
+    /* The Close Button */
+    .close {
+        color: white;
+        position: absolute;
+        top: 10px;
+        right: 25px;
+        font-size: 35px;
+        font-weight: bold;
+    }
+    /* Dropdown Button */
+    .dropbtn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+    }
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {background-color: #ddd;}
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {display: block;}
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+    .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+    .hidden{
+        display: none;
+    }
+</style>
+
+
+<!-- body -->
 <body>
 
-Welcome to HDH Meal Planner!
+<div class="container">
+    <div class="page-header" >
+        <h1>HDH Nutritional Planner</h1>
+    </div>
+    Welcome to the HDH Nutritional Planner! You can plan/track your meals
+    on the days for the current week. Simply select your day and meal type,
+    then select a dining hall to see its menu to select your food items from.
+    You can then view your nutritional dining dollar spending summary at the
+    bottom of this page.
+    <br>
+    <br>
+    <br>
+    <br>
+</div>
 
-<ul class="quotes">
 
 
+<!-- Modal displays upon selection of a cell in the table-->
 <div id="myModal" class="modal">
-    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <span class="close cursor" onclick="closeModal(); closeMenu()">&times;</span>
+    <div class="toCenter modal-font">
+        Select the restaurant of your choosing from the drop-down menu and then
+        select your food.
+    </div>
     <div class="modal-content">
         <select id="restaurants" onchange="restaurantSelection()">
-            <option value="volvo">Volvo</option>
-            <option value="saab">Saab</option>
-            <option value="mercedes">Mercedes</option>
-            <option value="audi">Audi</option>
+            <option>Select your restaurant<br>:</option>
+            <option value="Cafe_Ventanas">Cafe_Ventanas</option>
+            <option value="Canyon_Vista">Canyon_Vista</option>
+            <option value="Club_Med">Club_Med</option>
+            <option value="Degrees_64">Degrees 64</option>
+            <option value="Foodworx">Foodworx</option>
+            <option value="Goodys">Goodys</option>
+            <option value="OceanView">OceanView</option>
+            <option value="Pines">Pines</option>
+            <option value="Roots">Roots</option>
+            <option value="Sixty_Four_North">Sixty_Four_North</option>
+            <option value="The_Bistro">The_Bistro</option>
         </select>
     </div>
 </div>
 
+<!-- menu that displays upon selecting a restaurant. It will close upon closing of the modal-->
+<div id="myModalTable" class="toCenter hidden">
+    <!-- z-index and position allow this table to appear on top of everything else -->
+    <table class="table table-bordered" style="background-color:#F8F8FF;z-index: 1;position:relative;font-size: 14px;">
+        <thead>
+        <tr>
+            <th width="8%" height="15px" scope="col" id="underline">Select Quantity</th>
+            <th width="18%" height="15px" scope="col" id="underline">Item</th>
+            <th width="6%" height="15px" scope="col" id="underline">Cost</th>
+            <th width="6%" height="15px" scope="col" id="underline">Cal</th>
+            <th width="3%" height="15px" scope="col" id="underline">Fat(g)</th>
+            <th width="3%" height="15px" scope="col" id="underline">Chol(mg)</th>
+            <th width="3%" height="15px" scope="col" id="underline">Sod(mg)</th>
+            <th width="3%" height="15px" scope="col" id="underline">Carb(g)</th>
+            <th width="3%" height="15px" scope="col" id="underline">D.Fib(g)</th>
+            <th width="3%" height="15px" scope="col" id="underline">Sugars(g)</th>
+            <th width="3%" height="15px" scope="col" id="underline">Prot(g)</th>
+        </tr>
+        </thead>
+    </table>
+</div>
 
-<ul class="quotes">
-    <div class="row">
-        <div class="mealsColumn" style="background-color:#aaa;">
-            <h2>Column 1</h2>
-            <button onclick="openModal(1,2)">Click me</button>
-        </div>
-        <div class="mealsColumn" style="background-color:#aaa;">
-            <h2>Column 1</h2>
-            <p>Some text..</p>
-        </div>
-        <div class="mealsColumn" style="background-color:#aaa;">
-            <h2>Column 1</h2>
-            <p>Some text..</p>
-        </div>
-        <div class="mealsColumn" style="background-color:#aaa;">
-            <h2>Column 1</h2>
-            <p>Some text..</p>
-        </div>
-        <div class="mealsColumn" style="background-color:#aaa;">
-            <h2>Column 1</h2>
-            <p>Some text..</p>
-        </div>
-        <div class="mealsColumn" style="background-color:#aaa;">
-            <h2>Column 1</h2>
-            <p>Some text..</p>
-        </div>
-        <div class="mealsColumn" style="background-color:#aaa;">
-            <h2>Column 1</h2>
-            <p>Some text..</p>
-        </div>
+
+<!--
+<div class="row">
+    <div class="mealsColumn">
+        <h2>Column 1</h2>
+        <button onclick="openModal(1,2)">Click me</button>
     </div>
+</div>
+-->
+<div class = "toCenter">
+    <table class="table table-bordered" style="background-color:#b3dbff">
+        <thead>
+        <tr>
+            <th scope="col" width="6%" class="table-bordered"></th>
+            <th class="tableRowHeader" id="underline">Sunday</th>
+            <th class="tableRowHeader" id="underline">Monday</th>
+            <th class="tableRowHeader" id="underline">Tuesday</th>
+            <th class="tableRowHeader" id="underline">Wednesday</th>
+            <th class="tableRowHeader" id="underline">Thursday</th>
+            <th class="tableRowHeader" id="underline">Friday</th>
+            <th class="tableRowHeader" id="underline">Saturday</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+            <th scope="row" height="200px">Breakfast</th>
+            <td onclick="openModal('1', 'breakfast')">ree</td>
+            <td>ree</td>
+            <td>ree</td>
+            <td>ree</td>
+            <td>ree</td>
+            <td>ree</td>
+            <td>ree</td>
+        </tr>
+        <tr>
+            <th scope="row" height="200px">Lunch</th>
+            <td>ree</td>
+            <td>ree</td>
+            <td>ree</td>
+            <td>ree</td>
+            <td>ree</td>
+            <td>ree</td>
+            <td>ree</td>
+        </tr>
+        <tr>
+            <th scope="row" height="200px">Dinner</th>
+            <td>ree</td>
+            <td>ree</td>
+            <td>ree</td>
+            <td>ree</td>
+            <td>ree</td>
+            <td>ree</td>
+            <td>ree</td>
+
+        </tr>
+
+        </tbody>
+    </table>
+
+</div>
+
+
 
 <script>
-    var mealType = 0;
-    var dayOfWeek = 0;
 
-    function openModal(mealTypei, dayOfWeeki) {
-        mealType = mealTypei;
-        dayOfWeek = dayOfWeeki;
-        document.getElementById('myModal').style.display = "block";
+
+
+    var mealTyperino = '0';
+    var dayerino = '0';
+
+    /**
+     * Gets called upon clicking a cell in the table
+     */
+    function openModal(dayParam, mealTypeParam) {
+        mealTyperino = mealTypeParam;
+        dayerino = dayParam;
+        document.getElementById('myModal').style.display = "block"; //show the modal
     }
 
     function closeModal() {
-        document.getElementById('myModal').style.display = "none";
+        document.getElementById('myModal').style.display = "none"; //hide the modal
     }
 
+    /**
+     * Gets called upon a change in the restaurant drop-down menu in the modal.
+     * Displays table for user to select menu items from.
+     * Calls getItems() to FILL UP (happy shawn???) the table.
+     */
     function restaurantSelection(){
+        console.log('in restaurantSelection(). The restaurant is: ')
         console.log(document.getElementById("restaurants").value);
-        console.log(mealType);
-        console.log(dayOfWeek);
+        console.log(mealTyperino);
+        console.log(dayerino);
+
+        document.getElementById('myModalTable').style.display = "block"; //Show table
+
+        //Fill up menu table with food items that satisfy the given day of the week, meal type,
+        //and restaurant.
+        //getItems(dayerino, mealTyperino, document.getElementById("restaurants").value)
+        document.getElementById('finalMenu').style.display = "block";
     }
+
+    /**
+     * close the modal
+     **/
+    function closeMenu() {
+        document.getElementById('myModalTable').style.display = "none";
+    }
+
+    /**
+     * Fill up menu table with food items that satisfy the given day of the week, meal type,
+     * and restaurant.
+     *
+     * @param day
+     * @param mealType
+     * @param restaurant
+     */
+    function getItems(dayParam, mealTypeParam, restaurantParam){
+        console.log('in getItems. the restaurant is: ' + restaurantParam)
+        //const restaurantMenu = restaurantParam //menu for the restaurant in question
+        let restaurantMenu_for_dayParam = []
+
+        /*
+        //Search for all the items that match.
+        // @TODO: implement binary search for day. At the moment it's shitty O(n)
+        for(let i = 0; i < fetchedData.restaurantParam.length; i++){
+            if(fetchedData.restaurantMenu[i].dateRef === dayParam
+                && fetchedData.restaurantMenu[i].mealType === mealTypeParam){
+                restaurantMenu_for_dayParam.push(fetchedData.restaurantMenu[i])
+            }
+        }
+        console.log(restaurantMenu_for_dayParam)
+        */
+    }
+
 </script>
 </body>
 </html>

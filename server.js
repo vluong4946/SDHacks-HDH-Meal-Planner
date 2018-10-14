@@ -7,7 +7,7 @@ const MongoClient = require('mongodb').MongoClient //database
 //A template engine is ...
 app.set('view engine', 'ejs')
 
-//connect method to connect to MongoDB database
+//.connect() method to connect to MongoDB database
 var db
 MongoClient.connect('mongodb://vluong4946:91722Bluex@ds231723.mlab.com:31723/hdhnutrition', (err, client) => {
     //Handle error
@@ -15,7 +15,7 @@ MongoClient.connect('mongodb://vluong4946:91722Bluex@ds231723.mlab.com:31723/hdh
 
     db = client.db('hdhnutrition')
 
-    //Deploy server once db is set up
+    //Deploy local server once db is set up
     app.listen(3000, function() {
         console.log('listening on 3000')
     })
@@ -30,17 +30,28 @@ app.use(bodyParser.urlencoded({extended: true}))
  * When the user enters the '/' path of the website, the browser performs
  * a GET request to the server. The server sends back the stuff to display.
  */
-app.get('/', (req, res) => {
+app.get('/', async (req, res) => {
     //Display the quotes stored in the database.
     //find: returns object containing quotes & other stuff
     //toArray: converts only the entries in the db to array. Accepts a callback to
     //allow us to do stuff with the array entries.
     //We pass it into index.ejs for us to display to the HTML.
-    db.collection('Cafe_Ventanas').find().toArray((err, result) => {
-        if (err) return console.log(err)
-        // renders index.ejs
-        res.render('index.ejs', {Cafe_Ventanas: result}) //lol wut
-    })
+
+    /* Load in all the menus of all the restaurants */
+    var restaurants = ['Degrees_64', 'Cafe_Ventanas', 'Canyon_Vista', 'Club_Med', 'Foodworx', 'Goodys', 'OceanView', 'Pines', 'Roots', 'Sixty_Four_North', 'The_Bistro']
+    var fetchedData = []; //Store ALL restaurant info from db
+
+    //fetch all the data from the db
+    for(let i=0; i<restaurants.length; i++){
+        try{
+            const working = restaurants[i]
+            fetchedData[working] = await db.collection(`${restaurants[i]}`).find().toArray()
+        }
+        catch(error){
+            return console.log(`Error in fetching data from db:\n${error}`)
+        }
+    }
+    res.render('index.ejs', {fetchedData}) //render the webpage after fetching all the data from the db
 })
 
 /**
