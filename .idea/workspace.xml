@@ -20,7 +20,7 @@
             <file leaf-file-name="index.ejs" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/views/index.ejs">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="569">
+                  <state relative-caret-position="1326">
                     <caret line="78" column="19" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="19" />
                     <folding>
                       <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -236,11 +236,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24334000" />
+    <option name="totallyTimeSpent" value="24957000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-5" y="0" width="695" height="878" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.4948605" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -409,7 +408,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
+        <state relative-caret-position="1326">
           <caret line="78" column="19" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="19" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
