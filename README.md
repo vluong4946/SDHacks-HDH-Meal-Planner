@@ -40,9 +40,9 @@ Database
 * HTML + CSS
 
 ---------------------------------------------------------------------------------------------------------------
-**References:**
+**Major References:**
 * creating basic CRUD app: https://zellwk.com/blog/crud-express-mongodb/
 * not used yet: https://zellwk.com/blog/crud-express-and-mongodb-2/
 * not used yet: https://zellwk.com/blog/nunjucks-with-gulp/
-* Searching for desired menu items: https://stackoverflow.com/questions/7176908/how-to-get-index-of-object-by-its-property-in-javascript
+* Searching for menu items with particular day and time: https://stackoverflow.com/questions/7176908/how-to-get-index-of-object-by-its-property-in-javascript
 * Sending entire database to browser: https://stackoverflow.com/questions/41142136/res-render-only-after-multiple-data-queries-have-finished/41142211
