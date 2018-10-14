@@ -34,3 +34,9 @@ webpage:
 * creating basic CRUD app: https://zellwk.com/blog/crud-express-mongodb/
 * not used yet: https://zellwk.com/blog/crud-express-and-mongodb-2/
 * not used yet: https://zellwk.com/blog/nunjucks-with-gulp/
+---------------------------------------------------------------------------------------------------------------
+**Team Members**
+Joseph Gilby
+John Bae
+Shawn Koo
+Me
