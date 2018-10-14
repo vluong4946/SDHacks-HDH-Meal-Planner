@@ -5,11 +5,30 @@
     <title>MY APP</title>
 </head>
 <body>
+
+<button onclick="openModal()">Click me</button>
 May Node and Express be with you.
 <form action="/quotes" method="POST">
     <input type="text" placeholder="name" name="name">
     <input type="text" placeholder="quote" name="quote">
     <button type="submit">Submit</button>
 </form>
+
+<div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+        Hello
+    </div>
+</div>
+
+<script>
+    function openModal() {
+        document.getElementById('myModal').style.display = "block";
+    }
+
+    function closeModal() {
+        document.getElementById('myModal').style.display = "none";
+    }
+</script>
 </body>
 </html>
