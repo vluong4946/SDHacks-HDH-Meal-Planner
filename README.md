@@ -36,7 +36,7 @@ webpage:
 * not used yet: https://zellwk.com/blog/nunjucks-with-gulp/
 ---------------------------------------------------------------------------------------------------------------
 **Team Members**
-Joseph Gilby
-John Bae
-Shawn Koo
-Me
+* Joseph Gilby
+* John Bae
+* Shawn Koo
+* Me
