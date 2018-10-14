@@ -25,11 +25,18 @@ Database
 * Deploying website onto hosting platform
 
 ---------------------------------------------------------------------------------------------------------------
-**Team Members**
-* Joseph Gilby
-* John Bae
-* Shawn Koo
-* Me
+**Team Members & Response**
+Joseph Gilby
+
+John Bae
+
+Shawn Koo
+
+Victor Luong (me): 
+>I worked on the front- and back-end. I used Node.js and HTML/CSS to create and design a website with the basic template of how things were planned to look like and some of the core functionality behind it. 
+>I worked on setting up the mLab database to which Joseph uploaded his data, and retrieving the data to be put on the site.
+>I did not finish every feature I hoped to finish. However, being I was relatively new to Node and web development, I did learn a lot and consolidated topics that I was previously rusty on.
+>Thanks to Shawn for inviting me to the team!
 
 ---------------------------------------------------------------------------------------------------------------
 **Stuff Used**
