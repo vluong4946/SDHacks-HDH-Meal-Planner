@@ -4,8 +4,13 @@ This is a web-based weekly meal planner designed specifically for UC San Diego s
 
 The program uses Python to collect the food data off the [HDH Menu website](https://hdh-web.ucsd.edu/dining/apps/diningservices/). The data is stored using MongoDB and retrived server-side using Node.js. The information is displayed to the website which is written in Javascript, HTML, and CSS. 
 
+Main Page
 ![picture alt](https://i.imgur.com/UbzUKgY.png "Main Page")
+
+Dining Hall Selection Menu
 ![picture alt](https://i.imgur.com/AT0WpYr.png "Dining Hall Selection Menu")
+
+Database
 ![picture alt](https://i.imgur.com/NVwqQmy.png "Database")
 
 **Currently Complete Parts**
