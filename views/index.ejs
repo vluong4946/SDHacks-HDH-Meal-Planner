@@ -183,6 +183,30 @@
         </thead>
     </table>
 </div>
+<!-- Hidden thing where all the menus will go cuz idk how to do this -->
+<div id="finalMenu_Cafe_Ventanas" class="center hidden">
+    <% for(let j=0; j<Cafe_Ventanas.length; j++) {%>
+        <% Cafe_Ventanas[j].name %>
+
+    <% } %>
+
+    <!-- z-index and position allow this table to appear on top of everything else -->
+    <table class="table table-bordered" style="background-color:#F8F8FF;z-index: 1;position:relative;font-size: 14px;">
+        <tbody>
+        <td width="8%" height="15px" scope="col" id="underline"><button>+</button></td>
+        <td width="18%" height="15px" scope="col" id="underline">Item</td>
+        <td width="6%" height="15px" scope="col" id="underline">Cost</td>
+        <td width="6%" height="15px" scope="col" id="underline">Cal</td>
+        <td width="3%" height="15px" scope="col" id="underline">Fat(g)</td>
+        <td width="3%" height="15px" scope="col" id="underline">Chol(mg)</td>
+        <td width="3%" height="15px" scope="col" id="underline">Sod(mg)</td>
+        <td width="3%" height="15px" scope="col" id="underline">Carb(g)</td>
+        <td width="3%" height="15px" scope="col" id="underline">D.Fib(g)</td>
+        <td width="3%" height="15px" scope="col" id="underline">Sugars(g)</td>
+        <td width="3%" height="15px" scope="col" id="underline">Prot(g)</td>
+        </tbody>
+    </table>
+</div>
 
 
 <!--
@@ -251,9 +275,12 @@
 <script>
 
 
-
     var mealTyperino = '0';
     var dayerino = '0';
+
+    function addItem(){
+
+    }
 
     /**
      * Gets called upon clicking a cell in the table
@@ -280,11 +307,12 @@
         console.log(dayerino);
 
         document.getElementById('myModalTable').style.display = "block"; //Show table
+        addRow()
 
         //Fill up menu table with food items that satisfy the given day of the week, meal type,
         //and restaurant.
         //getItems(dayerino, mealTyperino, document.getElementById("restaurants").value)
-        document.getElementById('finalMenu').style.display = "block";
+        //document.getElementById('finalMenu').style.display = "block";
     }
 
     /**
@@ -307,18 +335,25 @@
         //const restaurantMenu = restaurantParam //menu for the restaurant in question
         let restaurantMenu_for_dayParam = []
 
-        /*
+
         //Search for all the items that match.
-        // @TODO: implement binary search for day. At the moment it's shitty O(n)
-        for(let i = 0; i < fetchedData.restaurantParam.length; i++){
-            if(fetchedData.restaurantMenu[i].dateRef === dayParam
-                && fetchedData.restaurantMenu[i].mealType === mealTypeParam){
+
+        for(let i = 0; i < fetchedData[restaurantParam].length; i++){
+            if(fetchedData[restaurantMenu[i]].dateRef === dayParam
+                && fetchedData[restaurantMenu[i]].mealType === mealTypeParam){
                 restaurantMenu_for_dayParam.push(fetchedData.restaurantMenu[i])
             }
         }
         console.log(restaurantMenu_for_dayParam)
-        */
     }
+    /*
+    function addRow(){
+        let table = document.getElementById("myModalTable").getElementsByTagName("tbody")[0];
+        let newRow = table.insertRow(table.rows.length);
+        let newCell = newRow.insertCell(0);
+        newCell.appendChild(1);
+    }
+    */
 
 </script>
 </body>

@@ -51,7 +51,7 @@ app.get('/', async (req, res) => {
             return console.log(`Error in fetching data from db:\n${error}`)
         }
     }
-    res.render('index.ejs', {fetchedData}) //render the webpage after fetching all the data from the db
+    res.render('index.ejs', fetchedData)
 })
 
 /**
