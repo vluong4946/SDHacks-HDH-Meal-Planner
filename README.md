@@ -37,6 +37,7 @@ Database
 * Jupyter Notebook
 * MongoDB
 * Node.js
+* Bootstrap
 * HTML + CSS
 
 ---------------------------------------------------------------------------------------------------------------
@@ -46,3 +47,6 @@ Database
 * not used yet: https://zellwk.com/blog/nunjucks-with-gulp/
 * Searching for menu items with particular day and time: https://stackoverflow.com/questions/7176908/how-to-get-index-of-object-by-its-property-in-javascript
 * Sending entire database to browser: https://stackoverflow.com/questions/41142136/res-render-only-after-multiple-data-queries-have-finished/41142211
+* codecademy HTML course: https://www.codecademy.com/learn/learn-html
+* w3schools: https://www.w3schools.com/
+* Bootstrap docs: https://getbootstrap.com/docs/4.1/getting-started/introduction/
