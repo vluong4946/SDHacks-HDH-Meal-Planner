@@ -24,7 +24,6 @@ Database
 **Currently Incomplete Parts**
 * Displaying the food options for a particular day and time
 * Filtering out food with certain allergies specified by the user
-* Summarizing nutritional values and cost
 * Deploying website onto hosting platform
 
 
