@@ -1,10 +1,12 @@
 # SDHacksHDHProject
 
+(Discontinued) 
+
 This is a web-based weekly meal planner designed specifically for UC San Diego students who frequently/exclusively eat from HDH's dining halls, ie, students who live on campus. It allows students to input what they plan to eat, choosing from available dining hall food options on a selected day and time. In turn, they receive a summary of their nutritional intake and dining dollar costs for the week. 
 
 The program uses Python to collect the food data off the [HDH Menu website](https://hdh-web.ucsd.edu/dining/apps/diningservices/). The data is stored using MongoDB and retrived server-side using Node.js. The information is displayed to the website which is written in Javascript, HTML, and CSS. 
 
-This project was made as an entry for [SD Hacks 2018](https://www.sdhacks.io/). We will still continue development, however. <br>
+~~This project was made as an entry for [SD Hacks 2018](https://www.sdhacks.io/). We will still continue development, however. <br> 
 Submission post: https://devpost.com/software/sdhackshdhproject
 
 Main Page
