@@ -6,7 +6,7 @@ This is a web-based weekly meal planner designed specifically for UC San Diego s
 
 The program uses Python to collect the food data off the [HDH Menu website](https://hdh-web.ucsd.edu/dining/apps/diningservices/). The data is stored using MongoDB and retrived server-side using Node.js. The information is displayed to the website which is written in Javascript, HTML, and CSS. 
 
-~~This project was made as an entry for [SD Hacks 2018](https://www.sdhacks.io/). We will still continue development, however. <br> 
+~~This project was made as an entry for [SD Hacks 2018](https://www.sdhacks.io/). We will still continue development, however. <br> ~~
 Submission post: https://devpost.com/software/sdhackshdhproject
 
 Main Page
